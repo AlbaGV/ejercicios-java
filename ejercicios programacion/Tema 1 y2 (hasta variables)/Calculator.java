@@ -11,18 +11,19 @@
   */
   
  public class Calculator {
-	 public static void (String[] args){
+	 public static void main(String[] args){
 		 String linea;
 		 
-		 System.out.print ("Escribe el primer numero: ");
-		 linea=System.console().readline();
-		 int primernumero= Integer.parseint(linea);
+		 
+		 System.out.print("Escribe el primer numero: ");
+		 linea=System.console().readLine();
+		 int primernumero= Integer.parseInt(linea);
 		 
 		 
-		  System.out.print ("Escribe el segundo numero: " )
+		  System.out.print ("Escribe el segundo numero: " );
 		  
-		  linea=System.console().readline();
-		 int segundonumero= Integer.parseint(linea);
+		  linea=System.console().readLine();
+		 int segundonumero= Integer.parseInt(linea);
 		 
 		 
 		 double mul=primernumero*segundonumero;

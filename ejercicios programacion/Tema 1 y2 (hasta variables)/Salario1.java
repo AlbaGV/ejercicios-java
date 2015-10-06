@@ -11,12 +11,12 @@
   */
   
  public class Salario1 {
-	 public static void (String[] args){
+	 public static void main (String[] args){
 		 String linea;
 		 
 		 System.out.print ("Cuantas horas trabaja?  ");
-		 linea=System.console().readline();
-		 int horas= Integer.parseint(linea);
+		 linea=System.console().readLine();
+		 int horas= Integer.parseInt(linea);
 		 
 		
 		 
