@@ -37,7 +37,10 @@
           
           System.out.println ("Las soluciones son: " + sol2 + " y " + sol3);
           
-          }
+        }else if((a==0)&&(b==0)) {
+          System.out.println("El resultado no es posible");
+          
+	  }
         
        
       
