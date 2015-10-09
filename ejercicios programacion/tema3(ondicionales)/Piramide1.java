@@ -13,115 +13,62 @@
 	  String linea=System.console().readLine();
 	
 	System.out.println("Y de que caracter quieres que este hecha? ");
-	  String char=System.console().readLine(); 
+	  String car=System.console().readLine(); 
+	   
 	     
 		
  
         
        
      if(linea.equals("arriba")){
-     con++;}
      
      
-      System.out.println(" "+char+" ");
-      System.out.println("");
+     
+      System.out.println("  "+car+" ");
+      System.out.println(" "+car+" "+car);
+      System.out.println(car+car+car+car+car);
      
        
        
        
-     if(linea2.equals("1")){
-     con++;}
+     }else if(linea.equals("abajo")){
+  
      
      
-      System.out.println("3º¿La energia nuclear es mala?");
-      System.out.println("1-SI");
-      System.out.println("2-NO");
-       String linea3=System.console().readLine();
-       
-       
-     if(linea3.equals("2")){
-     con++;}
-     
-     
-     
-      System.out.println("4º¿La ciencia es genial?");
-      System.out.println("1-SI");
-      System.out.println("2-NO");
-       String linea4=System.console().readLine();
-       
-       
-     if(linea4.equals("1")){
-     con++;}
-     
-     
-     
-      System.out.println("5º¿Vamos a aprobar todos?");
-      System.out.println("1-SI");
-      System.out.println("2-NO");
-       String linea5=System.console().readLine();
-       
-       
-     if(linea5.equals("1")){
-     con++;}
-     
-     
-     
-      System.out.println("6º¿El pan engorda?");
-      System.out.println("1-SI");
-      System.out.println("2-NO");
-       String linea6=System.console().readLine();
-       
-       
-     if(linea6.equals("1")){
-     con++;}
-     
-     
-     
-      System.out.println("7º¿La ingenieria es dificil?");
-      System.out.println("1-SI");
-      System.out.println("2-NO");
-       String linea7=System.console().readLine();
-   
-       
-     if(linea7.equals("1")){
-     con++;}
-     
-     
-     
-      System.out.println("8º¿En España hay muchas energia renovables?");
-      System.out.println("1-SI");
-      System.out.println("2-NO");
-       String linea8=System.console().readLine();
-   
-       
-     if(linea8.equals("1")){
-     con++;}
-     
-     
-     
-      System.out.println("9º¿Que lenguaje utilizamos ahora?");
-      System.out.println("1-Java");
-      System.out.println("2-HTML");
-       String linea9=System.console().readLine();
+      System.out.println(car+car+car+car+car);
+      System.out.println(" "+car+" "+car);
+      System.out.println("  "+car+" ");
       
        
-     if(linea9.equals("1")){
-     con++;}
+  
+     
+     }else if(linea.equals("derecha")){
      
      
-     
-      System.out.println("10º¿Y en lenguaje de marca?");
-      System.out.println("1-Basic");
-      System.out.println("2-HTML");
-       String linea10=System.console().readLine();
-     
+      System.out.println(car);
+      System.out.println(car+car);
+      System.out.println(car+" "+car);
+      System.out.println(car+car);
+      System.out.println(car);
        
-     if(linea10.equals("2")){
-     con++;}
+       
+       
+     }else if(linea.equals("izquierda")){
+    
      
      
      
-     System.out.println("Tu puntuacion es: " + con);
+      System.out.println("  "+car);
+      System.out.println(" "+car+car);
+      System.out.println(car+" "+car);
+      System.out.println(" "+car+car);
+      System.out.println("  "+car);
+      
+       
+   }else{
+	   System.out.println("No es ninguna direcccion");
+	   
+   }
      
      
  }
