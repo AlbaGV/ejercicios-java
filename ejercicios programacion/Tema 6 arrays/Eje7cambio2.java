@@ -29,10 +29,12 @@ public class Eje7cambio2 {
 		
 		System.out.println("Los numeros cambiados  son: ");
 		for(int i=0;i<20;i++){
-			System.out.print(num[i]+" ");	
+			
 			if(num[i]==n1){
 				System.out.print("'"+n2+"' ");
-			}				
+			}else{
+				System.out.print(num[i]+" ");	
+			}					
 		}
 	}
 }
