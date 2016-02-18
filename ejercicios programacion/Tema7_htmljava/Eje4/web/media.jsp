@@ -12,9 +12,9 @@
     <body>
        Tu nota es:
        <% 
-           double x= Double.valueOf(request.getParameter("nota1"));
-           double y= Double.valueOf(request.getParameter("nota2"));
-           double z= Double.valueOf(request.getParameter("nota3"));
+           double x= Double.parseDouble(request.getParameter("nota1"));
+           double y= Double.parseDouble(request.getParameter("nota2"));
+           double z= Double.parseDouble(request.getParameter("nota3"));
            double notafinal= (x+y+z)/3;    
            out.print(notafinal);      
        %>
