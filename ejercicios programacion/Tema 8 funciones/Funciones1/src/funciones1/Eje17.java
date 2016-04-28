@@ -14,7 +14,7 @@ public class Eje17 {
     public static void main(String[] args){
       long decimal = 0;
     
-      System.out.print("Introduzca un número binario: ");
+      System.out.print("Introduzca un número : ");
       long binario = Long.parseLong(System.console().readLine());
     
       int bits = matematicas.Varias.digitos(binario);
